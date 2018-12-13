@@ -48,3 +48,4 @@ client.on("message", (message) => {
     message.channel.send("bar!");
   }
 });
+if(message.author.id !== config.ownerID) return;
